@@ -1,4 +1,3 @@
-
 # Hangman Game in C++
 
 Welcome to the Hangman Game, a classic word-guessing game implemented in C++. This project includes user registration, login functionality, and the ability to save game progress. The game randomly selects words, and players try to guess the word one letter at a time.
@@ -20,17 +19,17 @@ Welcome to the Hangman Game, a classic word-guessing game implemented in C++. Th
 
 ## File Structure
 
-- users.txt: Stores registered usernames and passwords.
-- words.txt: Contains a list of possible words for the Hangman game.
-- game_records.txt: Logs game results for each user.
+- `users.txt`: Stores registered usernames and passwords.
+- `words.txt`: Contains a list of possible words for the Hangman game.
+- `game_records.txt`: Logs game results for each user.
 
 ## How to Run
 
 1. **Compile the Code**:
    Use a C++ compiler (e.g., g++) to compile the program:
-   bash
+   ```bash
    g++ -o hangman hangman.cpp
-   
+   ```
 
 2. **Prepare Files**:
    - Create the following files in the directory specified in the code:
@@ -49,6 +48,23 @@ Welcome to the Hangman Game, a classic word-guessing game implemented in C++. Th
    - Guess letters to find the hidden word.
    - Win by guessing the word before the Hangman is fully drawn!
 
+## Example Gameplay
+
+```text
+Welcome to Hangman Game!
+1. Register
+2. Login
+3. Quit
+Enter your choice = 2
+
+Enter username = player1
+Enter password = ********
+
+Login successful!
+Current word = _ _ _ _
+Tries left = 6
+Enter your guess = a
+```
 
 ## Future Improvements
 
@@ -64,7 +80,4 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 This project is open-source and available under the MIT License. Feel free to use, modify, and distribute the code as per the license terms.
 
----
-
 Enjoy the game!
-```
