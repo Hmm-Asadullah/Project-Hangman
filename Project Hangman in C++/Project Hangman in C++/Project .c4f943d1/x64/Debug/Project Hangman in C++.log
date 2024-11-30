@@ -1,0 +1,4 @@
+﻿  HangmanGame.cpp
+D:\DSA\Project Hangman in C++\Project Hangman in C++\HangmanGame.cpp(16,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\DSA\Project Hangman in C++\Project Hangman in C++\HangmanGame.cpp(179,12): warning C4129: '|': unrecognized character escape sequence
+  Project Hangman in C++.vcxproj -> D:\DSA\Project Hangman in C++\Project Hangman in C++\x64\Debug\Project Hangman in C++.exe
